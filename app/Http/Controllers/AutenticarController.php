@@ -46,6 +46,7 @@ class AutenticarController extends Controller
             'codigosis' => $user->Codigo_SIS_U,
             'apellido_paterno' => $user->Apelllido_Paterno_U,
             'apellido_materno' => $user->Apellido_Materno_U,
+            'rol' => $user->Rol_U,
             'token'=> $token
         ],200);
     }
